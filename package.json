@@ -35,6 +35,25 @@
   "babel": {
     "presets": [
       "nano-react-app"
-    ]
+    ],
+    "plugins":[
+      [
+      "@babel/plugin-proposal-class-properties",
+      {
+      "loose":true
+      },
+      "yt1"
+      ],
+      [
+      "@babel/plugin-proposal-private-methods",
+      {
+      "loose":true
+      },
+      "yt2"
+      ]
+      ]
+     
+      
+      
   }
 }
