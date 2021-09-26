@@ -1,12 +1,12 @@
 import React from "react";
 
 import Board from './components/Board';
+import "./style/root.scss";
 
 const App = () => {
 return(
-  <div>
+  <div className="app">
     <h1>TIC TAC TOE</h1>
-    <p>tictactoe game made by MGCS</p>
     <Board/>
   </div>
 );
