@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "@babel/core": "^7.11.4",
     "babel-eslint": "^10.1.0",
     "babel-preset-nano-react-app": "^0.1.0",
     "eslint": "^7.32.0",
